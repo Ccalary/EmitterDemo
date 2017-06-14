@@ -13,6 +13,7 @@
 		0D33BB1C1EF0EC0D00AD69EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D33BB1A1EF0EC0D00AD69EB /* Main.storyboard */; };
 		0D33BB1E1EF0EC0D00AD69EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D33BB1D1EF0EC0D00AD69EB /* Assets.xcassets */; };
 		0D33BB211EF0EC0D00AD69EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D33BB1F1EF0EC0D00AD69EB /* LaunchScreen.storyboard */; };
+		0D33BB2D1EF10BBF00AD69EB /* FireView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D33BB2C1EF10BBF00AD69EB /* FireView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0D33BB1D1EF0EC0D00AD69EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D33BB201EF0EC0D00AD69EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D33BB221EF0EC0D00AD69EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D33BB2B1EF10BBF00AD69EB /* FireView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireView.h; sourceTree = "<group>"; };
+		0D33BB2C1EF10BBF00AD69EB /* FireView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				0D33BB151EF0EC0D00AD69EB /* AppDelegate.m */,
 				0D33BB171EF0EC0D00AD69EB /* ViewController.h */,
 				0D33BB181EF0EC0D00AD69EB /* ViewController.m */,
+				0D33BB2B1EF10BBF00AD69EB /* FireView.h */,
+				0D33BB2C1EF10BBF00AD69EB /* FireView.m */,
 				0D33BB1A1EF0EC0D00AD69EB /* Main.storyboard */,
 				0D33BB1D1EF0EC0D00AD69EB /* Assets.xcassets */,
 				0D33BB1F1EF0EC0D00AD69EB /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 			files = (
 				0D33BB191EF0EC0D00AD69EB /* ViewController.m in Sources */,
 				0D33BB161EF0EC0D00AD69EB /* AppDelegate.m in Sources */,
+				0D33BB2D1EF10BBF00AD69EB /* FireView.m in Sources */,
 				0D33BB131EF0EC0D00AD69EB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
